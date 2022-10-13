@@ -46,6 +46,7 @@ public class ActivityList extends AppCompatActivity
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l)
             {
                 Toast.makeText(getApplicationContext(), listaconcatenada.get(i).toString(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), listaconcatenada.get(i).toString(), Toast.LENGTH_SHORT).show();
             }
         });
 
