@@ -43,6 +43,7 @@ public class ActivityCombo extends AppCompatActivity {
         ArrayAdapter<CharSequence> adp = new ArrayAdapter(this, android.R.layout.simple_spinner_item,listString);
         sppersonas.setAdapter(adp);
 
+
         sppersonas.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l)
